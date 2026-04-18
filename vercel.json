@@ -1,0 +1,1 @@
+{\n  "buildCommand": "npm run build",\n  "outputDirectory": "build",\n  "cleanUrls": true,\n  "framework": "none",\n  "cache": {\n    "pages": {\n      "/": {\n        "maxAge": "1d"\n      }\n    }\n  },\n  "rewrites": [\n    {\n      "source": "/api/(.*)",\n      "destination": "/api/$1"\n    },\n    {\n      "source": "/(.*)",\n      "destination": "/index.html"\n    }\n  ]\n}
